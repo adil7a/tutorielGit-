@@ -28,17 +28,22 @@ public class Application extends Frame implements WindowListener {
 		
 		this.pack();
 		this.setTitle("The clic game");
-		this.setVisible(true);	
+		this.setVisible(true);
+		addWindowListener(this);
 	}
 
 	@Override
 	public void windowActivated(WindowEvent e) {}
 
 	@Override
-	public void windowClosed(WindowEvent e) {}
+	public void windowClosed(WindowEvent e) {
+		
+	}
 
 	@Override
-	public void windowClosing(WindowEvent e) {}
+	public void windowClosing(WindowEvent e) {
+		System.exit(0);
+	}
 
 	@Override
 	public void windowDeactivated(WindowEvent e) {}
