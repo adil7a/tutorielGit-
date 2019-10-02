@@ -30,6 +30,7 @@ public class Application extends Frame implements WindowListener {
 		this.setTitle("The clic game");
 		this.setVisible(true);
 		addWindowListener(this);
+		setLocationRelativeTo(null);
 	}
 
 	@Override
