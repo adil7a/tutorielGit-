@@ -31,6 +31,7 @@ public class Application extends Frame implements WindowListener {
 		this.setVisible(true);
 		addWindowListener(this);
 		setLocationRelativeTo(null);
+	    this.setTitle("Shivam sucks");
 	}
 
 	@Override
