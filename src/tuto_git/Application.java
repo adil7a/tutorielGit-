@@ -13,7 +13,7 @@ public class Application extends Frame implements WindowListener {
 	public Application() 
 	{
 		super();
-		
+		this.setTitle("ssssss");
 		Model modl = new Model();
 		
 		Controller ctrl = new Controller(modl); 
